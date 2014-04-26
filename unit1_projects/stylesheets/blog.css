@@ -8,10 +8,14 @@ body {
 }
 
 #textbox {
+	
+	background-color: #C8FE2E;
+	font: sans-serif;
+}
+
+#article {
 	border: 1px;
 	border-color: #0B3B0B;
-	background-color: #C8FE2E;
-	font: helvetica;
 }
 
 a:link {
