@@ -8,14 +8,18 @@ body {
 }
 
 #textbox {
-	background-color: #C8FE2E;
-	font: sans-serif;
+	background-color: #F5ECCE;
+	
 }
 
-.article p {
+.article {
 	border: 1px;
 	border-color: #0B3B0B;
 }
+.article p {
+	font: sans-serif;
+}
+
 
 a:link {
 	font-weight: bold;
