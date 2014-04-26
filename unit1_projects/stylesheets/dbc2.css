@@ -1,10 +1,9 @@
-body {background-color: black;
-}
+
 body {font-size: 12;
 }
-body {color: white;
-}
+
 #sidebar {
+	position: absolute;
 	float: left;
 	margin-bottom: 10px;
 	margin-right: 20px;
@@ -12,7 +11,9 @@ body {color: white;
 	border-style: double;
 	border: 2px green;
 }
+#content {
 
+}
 #garden {
 	font-style: italic;
 }
@@ -31,6 +32,24 @@ left:0;
 	top: 15px;
 	left; 15px;
 	z-index: 2
+}
+
+a:link {
+	font-weight: bold;
+	text-decoration: none;
+	color: #0000ff;
+}
+
+a:visited {
+	color: #0000ff;
+}
+
+a:active {
+	color: #0000ff;
+}
+
+a:hover {
+	color: #33C223;
 }
 #footer {
 	margin-bottom: 20px;
