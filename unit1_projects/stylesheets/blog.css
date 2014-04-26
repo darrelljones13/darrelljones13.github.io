@@ -16,7 +16,7 @@ body {
 	border: 1px;
 	border-color: #0B3B0B;
 }
-.article p {
+#textbox p {
 	font-family: Verdana;
 }
 
