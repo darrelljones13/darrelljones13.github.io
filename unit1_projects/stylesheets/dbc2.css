@@ -11,9 +11,7 @@ body {font-size: 12;
 	border-style: double;
 	border: 2px green;
 }
-#content {
 
-}
 #garden {
 	font-style: italic;
 }
@@ -22,7 +20,7 @@ body {font-size: 12;
 }
 
 #image img {
-position: absolute;
+position: relative;
 top: 0;
 left:0;
 }
