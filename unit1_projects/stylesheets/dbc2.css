@@ -10,29 +10,23 @@ body {font-size: 12;
 	font-size: 12;
 }
 #sidebar h1 {
-	position: fixed;
-	text-align: center;
 	font-size: 12;
 }
 #garden {
-	position: relative;
 	font-style: bold;
 }
 #image {
-	position: relative;
 	margin: auto;
 	padding: 10px;
 }
 
 #image img {
-	position: fixed;
 	top:20;
 	right:20;
 
 }
 
 #image p {
-	position: absolute;
 	color: #FFFFFF
 	top: 20px;
 	right: 20px;
@@ -57,7 +51,6 @@ a:hover {
 	color: #33C223;
 }
 #footer {
-	position: re;
 	font-size: 12;
 	margin-bottom: 10px;
 	padding: 1;
