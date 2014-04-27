@@ -4,6 +4,7 @@ body {font-size: 12;
 
 #sidebar {
 	float: left;
+	position: absolute;
 	margin: auto;
 	padding: 12px;
 	border-style: double;
@@ -14,6 +15,7 @@ body {font-size: 12;
 	text-align: center;
 }
 #garden {
+	position: absolute;
 	font-style: italic;
 }
 #image {
@@ -36,6 +38,7 @@ body {font-size: 12;
 }
 
 a:link {
+	position: absolute;
 	font-size: 12;
 	font-weight: bold;
 	text-decoration: none;
@@ -54,6 +57,7 @@ a:hover {
 	color: #33C223;
 }
 #footer {
+	position: absolute;
 	font-size: 12;
 	margin-bottom: 20px;
 	padding: 1;
