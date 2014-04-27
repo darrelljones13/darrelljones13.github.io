@@ -27,6 +27,7 @@ body {font-size: 12;
 	position: absolute;
 	top:20;
 	right:20;
+
 }
 
 #image p {
@@ -55,6 +56,7 @@ a:hover {
 	color: #33C223;
 }
 #footer {
+	position: fixed;
 	font-size: 12;
 	margin-bottom: 20px;
 	padding: 1;
