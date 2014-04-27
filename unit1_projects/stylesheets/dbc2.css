@@ -3,14 +3,14 @@ body {font-size: 12;
 }
 
 #sidebar {
-	float: left
-	margin: auto;
+	float: left;
 	padding: 12px;
 	border-style: double;
 	border: 2px green;
 	font-size: 12;
 }
 #sidebar h1 {
+	position: fixed;
 	text-align: center;
 	font-size: 12;
 }
