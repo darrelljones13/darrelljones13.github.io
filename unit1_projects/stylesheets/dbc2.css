@@ -27,7 +27,7 @@ left:0;
 }
 
 #image p {
-	position: relative;
+	float: right;
 	top: 30px;
 	left; 30px;
 	z-index: 2
