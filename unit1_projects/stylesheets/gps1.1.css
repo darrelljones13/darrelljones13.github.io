@@ -1,10 +1,40 @@
 body {
-	font: verdana;
-	margin-right: 50px;
+	margin-right: 300px;
+	font-family: sans-serif;
+	background-color: rgb(20, 45, 126);
+	/* color: beige; */
 }
 
+h1 {
+	color: beige;
+	
+}
+p {
+	color:beige;
+}
 .navigator {
-	background-color: blue;
-	border-spacing: 2px;
-	border-radius: 2px;
+	background-color: rgb(227, 228, 206);
+	padding: 5px;
+	border-radius: 14px;
+	border-spacing: initial;
+	border-color: white;
+	margin: 10px;
+	color: navy;
+}
+.navigator h3 {
+	color:navy;
+}
+.navigator p {
+	color:navy;
+}
+.driver {background-color: rgb(227, 228, 206);
+padding: 5px;
+border-radius: 14px;
+border-spacing: 10px;border-color: white; margin: 10px;color: navy;}
+
+.driver h3 {
+	color:navy;
+}
+.driver p {
+	color:navy;
 }
