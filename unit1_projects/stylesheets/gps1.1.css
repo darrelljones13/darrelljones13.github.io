@@ -1,0 +1,10 @@
+body {
+	font: verdana;
+	margin-right: 50px;
+}
+
+.navigator {
+	background-color: blue;
+	border-spacing: 2px;
+	border-radius: 2px;
+}
