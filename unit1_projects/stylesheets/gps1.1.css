@@ -10,7 +10,7 @@ h1 {
 	
 }
 p {
-	color:beige;
+	/* color:beige; */
 }
 .navigator {
 	background-color: rgb(227, 228, 206);
@@ -27,7 +27,8 @@ p {
 .navigator p {
 	color:navy;
 }
-.driver {background-color: rgb(227, 228, 206);
+.driver {
+background-color: rgb(227, 228, 206);
 padding: 5px;
 border-radius: 14px;
 border-spacing: 10px;border-color: white; margin: 10px;color: navy;}
@@ -37,4 +38,14 @@ border-spacing: 10px;border-color: white; margin: 10px;color: navy;}
 }
 .driver p {
 	color:navy;
+}
+
+.reflection {
+background-color: rgb(227, 228, 206);
+padding: 5px;
+border-radius: 14px;
+border-spacing: 10px;
+border-color: white; 
+margin: 10px;
+color: navy;
 }
