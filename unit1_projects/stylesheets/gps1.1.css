@@ -10,7 +10,7 @@ h1 {
 	
 }
 p {
-	/* color:beige; */
+	color:beige;
 }
 .navigator {
 	background-color: rgb(227, 228, 206);
@@ -48,4 +48,8 @@ border-spacing: 10px;
 border-color: white; 
 margin: 10px;
 color: navy;
+}
+
+.reflection p {
+	color:navy;
 }
