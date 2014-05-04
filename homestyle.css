@@ -1,4 +1,4 @@
-body{
+header{
 	font-family: 'Poiret+One';
 	background-color: gray;
 }
@@ -17,11 +17,15 @@ header #title{
 	font-family: 'Poiret+One';
 	margin-bottom: -16px;
 }
-header #pic{
-	border border-radius: 15%;
-	position: absolute;
-	height: 50%;
-	width: 50%;
+header img {
+  border: .3em solid white;
+  border-radius: 10%;
+  float: left;
+  width: 7.4em;
+  max-width: 250px;
+  position: absolute;
+  right: 80%;
+  top: 2em;
 }
 nav{
 	background-color: gray;
@@ -42,8 +46,12 @@ nav ul li a{
 	text-decoration: none;
 	font-family: 'Poiret+One', sans-serif;
 }
+body{
+	font-family: 'Poiret+One';
+	background-color: gray;
+}
 .container{
-	border: 5px solid white;
+	border: .3em solid white;
 	border-radius: 15%;
 }
 
