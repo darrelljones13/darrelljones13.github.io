@@ -3,15 +3,17 @@ html{
 }
 header{
 	font-family: 'Poiret+One';
-	background-color: gray;
+	background-color: rgba(25, 29, 15, 1);
+	margin-top: 60;
+	/* border-radius: 10px; */
+	/* margin-right: 200; */
 }
 
 header #name{
-	background-color: white;
+	background-color: rgb(197, 163, 75);
 	width: 100%;
 	height: 100px;
-	font-family: 'Poiret+One';
-	margin-bottom: -16px;
+	/* margin-bottom: -16px; */
 }
 header #title{
 	background-color: black;
@@ -21,17 +23,21 @@ header #title{
 	margin-bottom: -16px;
 }
 header img {
-  border: .3em solid white;
-  border-radius: 10%;
+  border: .3em solid rgb(7, 0, 0);
+  border-radius: 20;
   float: left;
   width: 7.4em;
   max-width: 250px;
   position: absolute;
-  right: 80%;
+  left: 50;
+  /* padding: 10; */
   top: 2em;
 }
+header h1{
+	margin:20;
+}
 nav{
-	background-color: gray;
+	background-color: rgba(15, 3, 3, 0.45);
 	width: 60%;
 	font-family: 'Poiret+One';
 }
@@ -48,15 +54,28 @@ nav ul li a{
 	font-weight: 700;
 	text-decoration: none;
 	font-family: 'Poiret+One';
+	font-size: 1.25em;
 }
 body{
 	font-family: 'Poiret+One';
-	background-color: gray;
+	background-color: rgb(213, 210, 210);
+
+	margin-left: 200;
+	margin-right: 200;
+	border-radius: 10px;
 }
-.container{
-	background-color: gray;
-	border: .3em solid white;
-	border-radius: 15%;
+#container{
+	/* background-color: gray; */
+	/* border: .3em solid white; */
+	
 }
 
+#container h4 {
+	font-size: 1.5em;
+	margin:20;
+}
 
+#container p{
+	margin:40;
+	font-size: 1.35em;
+}
