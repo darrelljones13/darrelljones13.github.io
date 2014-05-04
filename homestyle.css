@@ -30,7 +30,7 @@ header img {
 nav{
 	background-color: gray;
 	width: 60%;
-	font-family: 'Poiret+One', sans-serif;
+	font-family: 'Poiret+One';
 }
 nav ul{list-style: none;}
 
@@ -44,7 +44,7 @@ nav ul li a{
 	color: white;
 	font-weight: 700;
 	text-decoration: none;
-	font-family: 'Poiret+One', sans-serif;
+	font-family: 'Poiret+One';
 }
 body{
 	font-family: 'Poiret+One';
