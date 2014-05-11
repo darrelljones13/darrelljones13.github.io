@@ -1,6 +1,6 @@
 body {
-	background-color: #0A6106;
-	margin: 30px;
+	background-color: #677466;
+	margin: 50px;
 	padding: 10px;
 }
 
@@ -8,6 +8,7 @@ body {
 	font-style: bold;
 	font-size: 14;
 	font-family: Verdana;
+	color: rgb(224, 224, 224);
 }
 
 #textbox {
@@ -32,7 +33,8 @@ body {
 
 img {
 	border-radius:10px;
-	width: 500px;
+	width: 200px;
+	margin: 10px;
 }
 a:link {
 	font-weight: bold;
