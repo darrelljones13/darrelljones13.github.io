@@ -1,0 +1,82 @@
+html{
+	background-color: black;
+}
+header{
+	font-family: 'Montserrat Alternates', sans-serif;
+	background-color: black;
+	margin-top: 60;
+}
+
+header #name{
+	background-color: rgb(197, 163, 75);
+	width: 100%;
+	height: 100px;
+}
+
+header span{
+	position: static;
+}
+header #title{
+	background-color: black;
+	width: 100%;
+	height: 100px;
+	font-family: 'Poiret+One';
+	margin-bottom: -16px;
+}
+header img {
+  border: .3em solid rgb(7, 0, 0);
+  border-radius: 20;
+  float: left;
+  width: 7.4em;
+  max-width: 250px;
+  position: absolute;
+  left: 50;
+  /* padding: 10; */
+  top: 2em;
+}
+header h1{
+	margin:30;
+}
+nav{
+	background-color: rgba(15, 3, 3, 0.45);
+	width: 70%;
+	font-family: 'Montserrat Alternates', sans-serif;
+}
+nav ul{list-style: none;font-family: 'Montserrat Alternates', sans-serif;}
+
+nav ul li{display: inline-block;font-family: 'Montserrat Alternates', sans-serif;}
+
+nav ul li a{
+	font-size: 15px;
+	display: inline-block;
+	padding: 15px 0;
+	margin: 0 20px;
+	color: white;
+	font-weight: 700;
+	text-decoration: none;
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 1.25em;
+}
+body{
+	font-family: 'Montserrat Alternates', sans-serif;
+	background-color: rgb(213, 210, 210);
+
+	margin-left: 200;
+	margin-right: 200;
+	border-radius: 10px;
+}
+#container{
+	/* background-color: gray; */
+	/* border: .3em solid white; */
+	
+}
+
+#container h4 {
+	font-size: 1.5em;
+	margin:20;
+}
+
+#container p{
+	margin:40;
+	font-size: 1.3em;
+}
