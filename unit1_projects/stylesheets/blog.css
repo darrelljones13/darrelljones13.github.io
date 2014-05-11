@@ -1,6 +1,7 @@
 body {
-	background-color: #BDBDBD;
+	background-color: #0A6106;
 	margin: 30px;
+	padding: 10px;
 }
 
 #header h1 {
@@ -12,13 +13,16 @@ body {
 #textbox {
 	background-color: #F5ECCE;
 	border-radius: 5px;
-	width: 900px;
+	width: 950px;
+	/* border: black; */
+	border: 10px;
 }
 
 .article {
-	border: 1px;
-	border-color: #0B3B0B;
-	width: 900px;
+	border: 8px;
+	border-color: #000000;
+	width: 950px;
+	padding: 15px;
 }
 #textbox p {
 	font-family: Verdana;
