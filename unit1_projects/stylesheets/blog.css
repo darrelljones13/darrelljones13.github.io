@@ -31,13 +31,13 @@ body {
 	width: 900px;
 }
 
-img {
+#image img {
 	border-radius:10px;
 	width: 200px;
 	margin: 10px;
 }
 
-#image2 {
+#image2 img {
 	border-radius: 5px;
 	width: 100%;
 }
