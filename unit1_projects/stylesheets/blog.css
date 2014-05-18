@@ -31,10 +31,14 @@ body {
 	width: 900px;
 }
 
-img {
+#image {
 	border-radius:10px;
 	width: 200px;
 	margin: 10px;
+}
+
+#image2 {
+	border-radius: 5px;
 }
 a:link {
 	font-weight: bold;
