@@ -18,6 +18,8 @@ incredible_hulk = SuperHero.new("The Hulk", "Dr. Bruce Banner", "Gamma fueled fi
 
 captain_america = SuperHero.new("Captain America", "Steve Rogers", "Super Soldier agility and my indestructible, spangly shield")
 
+black_widow = SuperHero.new("Black Widow", "Natasha Romanoff", "Espionage skills")
+
 puts spiderman.hero_speech 
 
 #=> My name is Peter Parker, and I have been known as Spider-Man for quite a while. I'm amazed nobody has figure that out yet, but whatever. I'm known for catching bad guys with my patented Web-Shooters and spider strength. It has been a real pleasure serving this fine community, but all those death rays to the face have taken their toll and it is time for me to step down.

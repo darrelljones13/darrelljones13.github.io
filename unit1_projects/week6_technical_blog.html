@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Week 6 Tech Blog</title>
+
+	<link rel="stylesheet" href="http://darrelljones13.github.io/unit1_projects/stylesheets/blog.css">
+</head>
+<body>
+	
+		<div id = "header">
+			<h1>Week 6 Tech Blog: Blocks, Procs, and Lambdas</h1>
+		</div>
+		<div id ="image">
+					<img src="http://darrelljones13.github.io/unit1_projects/images/crocodile_dundee.jpg">
+		</div>
+	<div id ="textbox">
+		<article class ="article">
+
+			<p>I learned almost everthing I know about blocks, Procs, and lambdas from the Ruby Beginner's tutorial on Codecademy.  They have a great way of succinctly explaining the differences between the three, but instead of just sending you over to their site, I'll try by best to explain it as well as they have.</p>
+
+			<p>Blocks</p>
+
+			<p>Blocks are segments of code that can be defined with either the keywords do and end or with curly braces ({}). Interestingly, blocks are one of the few things in Ruby that aren't objects.  As such, they are kind of ephemeral lasting only long enough to do some stuff in the method.  You can only pass one block per method.</p>
+
+			<div id ="image2">
+				<img src="http://darrelljones13.github.io/unit1_projects/images/block.png">
+			</div>
+
+			<p>Procs</p>
+
+			<p>Conversely, you can pass more than one Proc per method. Procs are objects! They are instances of the Proc class, which is why it begins with a captital P. Codecademy thinks of Procs like savable blocks. You can save blocks as Procs and use them over and over again.</p>
+
+			<div id ="image2">
+				<img src="http://darrelljones13.github.io/unit1_projects/images/proc.png">
+			</div>
+
+			<p>Lambdas</p>
+
+			<p>Lambdas are also objects.  They actually have quite a lot in common with Procs.  One of the major differences between the two is that lambdas check the number of arguments passed to it, while Procs do not. In fact, lambdas will raise an error if there aren't the correct number of arguments.  Procs ignore them.</p>
+
+			<div id ="image2">
+				<img src="http://darrelljones13.github.io/unit1_projects/images/lambda.png">
+
+			<p>I hope this helps distinguish these three Ruby essentials. Happy coding!</p>
+		</article>
+	</div>
+<div id = "footer">
+<footer>Darrell Jones 2014</footer>
+</div>
+</body>
+</html>
