@@ -11,12 +11,7 @@ body {
 	color: rgb(224, 224, 224);
 }
 
-#header p {
-	font-style: bold;
-	font-size: 12;
-	font-family: Verdana;
-	color: rgb(224, 224, 224);
-}
+
 
 #textbox {
 	background-color: #F5ECCE;
@@ -24,6 +19,13 @@ body {
 	width: 950px;
 	/* border: black; */
 	border: 10px;
+}
+
+#paragraph_heading h3 {
+	font-style: bold;
+	font-size: 12;
+	font-family: Verdana;
+	color: rgb(224, 224, 224);
 }
 
 .article {
