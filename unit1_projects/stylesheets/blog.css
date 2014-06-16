@@ -16,7 +16,7 @@ body {
 #textbox {
 	background-color: #F5ECCE;
 	border-radius: 5px;
-	width: 950px;
+	width: 850px;
 	/* border: black; */
 	border: 10px;
 }
@@ -26,7 +26,7 @@ body {
 .article {
 	border: 8px;
 	border-color: #000000;
-	width: 950px;
+	width: 800px;
 	padding: 15px;
 }
 
@@ -52,6 +52,12 @@ body {
 	border-radius: 5px;
 	width: 70%;
 }
+
+#footer footer{
+	font-family: Verdana;
+	color: rgb(224, 224, 224);
+}
+
 a:link {
 	font-weight: bold;
 	color: #0B3B0B;
